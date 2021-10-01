@@ -1,0 +1,39 @@
+.payment-container {
+    background: url('../images/support-us.jpg')  fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15%;
+    padding-left: 1%;
+}
+
+.support {
+    width: 50%;
+    padding: 3%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 10px;
+}
+.outer {
+    width: 100wv;
+    padding-top: 2%;
+    margin-left: 10%;
+    
+}
+.value-input {
+    padding: 1%;
+}
+
+.suggested-value {
+    padding: 5%;
+}
+
+.pay-button {
+   text-align: center;
+   padding: 1%;
+}

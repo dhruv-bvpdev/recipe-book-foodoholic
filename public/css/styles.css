@@ -1,0 +1,59 @@
+@import url(navbar.css);
+
+
+.hero-section{
+    width: 100%;
+    height: 40.3vw;
+    background-image: url('../images/header-1.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    padding: 1.5%;
+    font-size: large;
+}
+
+.heading {
+    font-size: 350%;
+}
+
+.food-image {
+    width: 100%;
+  height: calc(110vh - 120px);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+
+
+.summary {
+    padding: 1.5%;
+}
+
+
+
+
+
+.extra-info {
+    padding-bottom: 5%;
+    padding-left: 22%;
+}
+
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+  }
+
+
+#support-us {
+      text-decoration: none;
+  }
+
+
+  

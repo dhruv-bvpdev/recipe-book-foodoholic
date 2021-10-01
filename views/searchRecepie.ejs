@@ -1,0 +1,54 @@
+<%- include("partials/header", {username: username}) -%>
+
+     <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="<%= recepieInformation.image %>" class="d-block mx-lg-auto img-fluid" alt="image" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3"><%= recepieInformation.title %></h1>
+            <p class="lead"><%= recepieInformation.summary %></p>
+          </div>
+        </div>
+      </div>
+
+    
+  <div class="extra-info">
+    <div class="container-fluid row row-cols-lg-4 row-cols-md-2" style="padding: 2%;">
+
+      <div class="card text-center text-dark bg-light mb-3" style="max-width: 18rem;">
+        <div class="card-header">Preperation Time</div>
+        <div class="card-body">
+          <h5 class="card-title"><%= recepieInformation.readyInMinutes %></h5>
+        </div>
+      </div>
+
+
+      <div class="card text-center text-dark bg-light mb-3" style="max-width: 18rem;">
+        <div class="card-header">Dish Type</div>
+        <div class="card-body">
+          <h5 class="card-title"><%= recepieInformation.dishTypes %></h5>
+        </div>
+      </div>
+
+      <div class="card text-center text-dark bg-light mb-3" style="max-width: 18rem;">
+        <div class="card-header">Health Score</div>
+        <div class="card-body">
+          <h5 class="card-title"><%= recepieInformation.healthScore %></h5>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+    
+    <div class="instructions">
+        <h3>Instructions</h3>
+        <p><%= recepieInformation.instructions %></p>
+    </div>
+
+
+
+
+
+
+<%- include("partials/footer") -%>

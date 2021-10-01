@@ -1,0 +1,50 @@
+.newsletter-container {
+  background: url('../images/newsletter.jpg')  fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
+  border-color: black;
+  background-color: #A9E4D7;
+  width: 40%;
+	text-align: center;
+  padding: 4%;
+  border-radius: 10px;
+}
+.form-container {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  margin-bottom: -1px;
+  border-radius: 0%;
+    border-radius: 0%;
+    margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+

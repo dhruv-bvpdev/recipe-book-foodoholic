@@ -1,0 +1,22 @@
+<%- include("partials/header", {username: username}) -%>
+
+
+
+<div class="container-fluid row row-cols-lg-4 row-cols-md-2" style="padding: 2%;">
+  
+    <% recepiesFound.forEach(function(recepie) { %>
+      <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+            <img src="<%= recepie.image %>" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><%= recepie.title %></h5>
+              <a href="/detailedRecepie/<%= recepie.id %>" class="btn btn-primary">Go to Recepie</a>
+            </div>
+          </div>
+      </div>
+   <% }) %>
+
+</div>
+
+
+<%- include("partials/footer") -%>
